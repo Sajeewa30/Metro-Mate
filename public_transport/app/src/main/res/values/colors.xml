@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#D2D1D1</color>
+    <color name="colorPrimaryDark">#17202A</color>
+    <color name="colorAccent">#000000</color>
+
+    <!-- Primary Colors -->
+    <color name="primary">#D2D1D1</color>
+    <color name="primary_dark">#17202A</color>
+    <color name="accent">#000000</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FFFF</color>
+    <color name="splash_background">#000000</color>
+
+    <!-- Text Colors -->
+    <color name="splash_text">#FFFFFF</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#2471A3</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+
+    <!-- Button Colors -->
+
+    <!-- Link Colors -->
+    <color name="link_blue">#007BFF</color>
+    <color name="link_green">#28A745</color>
+
+    <!-- Transparent Color -->
+    <color name="transparent">#00000000</color>
+
+    <color name="background_color">#F5F5F5</color>
+    <color name="toolbar_color">#28A745</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="secondary_background">#EEEEEE</color>
+    <color name="drawer_background">#FFFFFF</color>
+    <color name="login_button_background">#4CAF50</color> <!-- Replace with your desired color -->
+    <color name="register_button_background">#2196F3</color> <!-- Replace with your desired color -->
+    <color name="button_background">#4CAF50</color>
+    <color name="button_stroke_color">#3700B3</color>
+    <color name="card_background">#FFFFFF</color> <!-- Set your preferred card color -->
+
+
+
+</resources>

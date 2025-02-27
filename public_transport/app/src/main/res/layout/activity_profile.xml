@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_profile.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_profile"
+            android:contentDescription="Profile Picture"
+            android:background="@drawable/circle_background"
+            android:padding="8dp" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/tvProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: John Doe"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/tvProfileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: john.doe@example.com"
+            android:textSize="18sp"
+            android:paddingTop="8dp" />
+
+        <!-- NIC -->
+        <TextView
+            android:id="@+id/tvProfileNIC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIC: 123456789V"
+            android:textSize="18sp"
+            android:paddingTop="8dp" />
+
+        <!-- Mobile -->
+        <TextView
+            android:id="@+id/tvProfileMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile: +94771234567"
+            android:textSize="18sp"
+            android:paddingTop="8dp" />
+
+        <!-- Edit Profile Button -->
+        <Button
+            android:id="@+id/btnEditProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/button_text"
+            android:background="@color/button_background" />
+
+    </LinearLayout>
+</ScrollView>

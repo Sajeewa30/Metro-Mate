@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "248046302092",
+    "firebase_url": "https://public-transport-798eb-default-rtdb.firebaseio.com",
+    "project_id": "public-transport-798eb",
+    "storage_bucket": "public-transport-798eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248046302092:android:83b6e4285338f1874b1ca9",
+        "android_client_info": {
+          "package_name": "com.example.public_transport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248046302092-gkkfq67vbqphubgsa9b1qtus6tvmlus9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRZtCrjwxZ9bb4F60s-vjbPY-8NFCid0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248046302092-gkkfq67vbqphubgsa9b1qtus6tvmlus9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

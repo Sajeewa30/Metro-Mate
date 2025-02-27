@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Full Name -->
+        <EditText
+            android:id="@+id/etPassengerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp" />
+
+        <!-- NIC -->
+        <EditText
+            android:id="@+id/etPassengerNIC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIC"
+            android:inputType="text"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etPassengerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Mobile -->
+        <EditText
+            android:id="@+id/etPassengerMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/etPassengerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Terms and Conditions -->
+        <CheckBox
+            android:id="@+id/checkBoxTermsAndConditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to the Terms and Conditions"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegisterPassenger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="16sp"
+            android:background="@color/button_background"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

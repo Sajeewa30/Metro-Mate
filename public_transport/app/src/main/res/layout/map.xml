@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.public_transport.Map"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        tools:context="com.example.harin.firebase_crud.Map" >
+    </fragment>
+
+    <Switch
+        android:id="@+id/switch_visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Online   "
+        tools:layout_X="113dp"
+        tools:layout_Y="600dp"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:theme="@style/SwitchTheme"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:text="Logout"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/button_text"
+        android:background="@color/button_background"
+        android:textSize="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>
+
+
+
+
